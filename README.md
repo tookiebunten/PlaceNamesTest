@@ -5,7 +5,7 @@ This project contains a Python script that scrapes place name data from the Ordn
 ## Description
 
 The script uses the `httpx` library to send HTTP requests and the `selectolax` library to parse the HTML responses. 
-It navigates to the page for each volume of the Ordnance Survey Name Books, extracts the place name data from the page, and stores the data in a structured format. The data is then written to a CSV file. The goal is to make the data more accessible and easier to work with in regards to data analysis and visualisation.
+It navigates to the page for each volume of the Ordnance Survey Name Books, extracts the place name data from the page, and stores the data in a structured format. The data is then written to a `Pandas DataFrame` for easier data cleaning and formatting, then exported to a `Excel file`. The goal is to make the data more accessible and easier to work with in regards to data analysis and visualisation.
 
 ## Getting Started
 Currently, the script is designed to scrape the data for the 1st Volume Ordnance Survey Name Books for the county of Lanarkshire. To change this you will need to update the main_url. To get valid main_url you can navigate to the Scotland's Places website, here https://scotlandsplaces.gov.uk/digital-volumes/ordnance-survey-name-books click on which county you want to scrape, the main_url should look something like this: https://scotlandsplaces.gov.uk/digital-volumes/ordnance-survey-name-books/lanarkshire-os-name-books-1858-1861
