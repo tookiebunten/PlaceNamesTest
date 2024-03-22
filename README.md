@@ -18,5 +18,6 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 - Thanks to the Scotland's Places website for providing the data. https://scotlandsplaces.gov.uk/digital-volumes/ordnance-survey-name-books
+- Thanks to Vision of Britain for the list of place names in the gazetteer csv. https://www.visionofbritain.org.uk/
 - Colin https://github.com/dgplacenames for the inspiration
 - John Watson Rooney for his tutorials and discord. https://www.youtube.com/channel/UC8tgRQ7DOzAbn9L7zDL8mLg
